@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name kosmo_proto)(type Legacy)(uri ${KIPRJMOD}/kosmo_proto.lib)(options "")(descr ""))
-)
