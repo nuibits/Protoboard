@@ -17,11 +17,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="5.35" y="1.65"/>
-        <point x="1.95" y="3.55"/>
+        <point x="5.25" y="1.65"/>
+        <point x="2.05" y="3.55"/>
       </controlPoints>
-      <firstPoint x="1.95" y="1.65"/>
-      <secondPoint x="5.35" y="3.55"/>
+      <firstPoint x="2.05" y="1.65"/>
+      <secondPoint x="5.25" y="3.55"/>
       <boardColor hex="f8ebb3"/>
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
@@ -33,6 +33,46 @@
       <spacing value="0.1" unit="in"/>
       <padColor hex="da8a67"/>
     </diylc.boards.PerfBoard>
+    <diylc.boards.BlankBoard>
+      <name>Board2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.1" y="1.7"/>
+        <point x="5.2" y="1.8"/>
+      </controlPoints>
+      <firstPoint x="5.1" y="1.7"/>
+      <secondPoint x="5.2" y="1.8"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <type>SQUARE</type>
+    </diylc.boards.BlankBoard>
+    <diylc.boards.BlankBoard>
+      <name>Board3</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.1" y="3.4"/>
+        <point x="5.2" y="3.5"/>
+      </controlPoints>
+      <firstPoint x="5.1" y="3.4"/>
+      <secondPoint x="5.2" y="3.5"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <mode>TwoPoints</mode>
+      <type>SQUARE</type>
+    </diylc.boards.BlankBoard>
     <diylc.shapes.Rectangle>
       <name>RECT1</name>
       <alpha>0</alpha>
