@@ -1,15 +1,18 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.5-52549c5~84~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2020-07-05T07:32:41-04:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.6-c6e7f7d~87~ubuntu20.04.1*
+G04 #@! TF.CreationDate,2020-10-18T20:32:01-04:00*
 G04 #@! TF.ProjectId,kosmo_proto,6b6f736d-6f5f-4707-926f-746f2e6b6963,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.5-52549c5~84~ubuntu18.04.1) date 2020-07-05 07:32:41*
+G04 Created by KiCad (PCBNEW 5.1.6-c6e7f7d~87~ubuntu20.04.1) date 2020-10-18 20:32:01*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
 %ADD10C,0.050000*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X45720000Y-109220000D02*
