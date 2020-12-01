@@ -1,2 +1,2 @@
 # Protoboard
-Eurorack/Kosmo powered protyping boards
+Eurorack/Kosmo powered prototyping boards
