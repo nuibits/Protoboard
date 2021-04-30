@@ -21,7 +21,7 @@ AR Path="/5EFA5EE5/5EFA7A00" Ref="C?"  Part="1"
 AR Path="/5EFA7A00" Ref="C1"  Part="1" 
 F 0 "C1" H 5418 2296 50  0000 L CNN
 F 1 "10uF" H 5418 2205 50  0000 L CNN
-F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5338 2100 50  0001 C CNN
+F 2 "ao_tht:CP_Radial_D6.3mm_P2.50mm" H 5338 2100 50  0001 C CNN
 F 3 "~" H 5300 2250 50  0001 C CNN
 	1    5300 2250
 	1    0    0    -1  
@@ -154,7 +154,7 @@ AR Path="/5EFA5EE5/5EFA7A06" Ref="C?"  Part="1"
 AR Path="/5EFA7A06" Ref="C2"  Part="1" 
 F 0 "C2" H 5418 2596 50  0000 L CNN
 F 1 "10uF" H 5418 2505 50  0000 L CNN
-F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 5338 2400 50  0001 C CNN
+F 2 "ao_tht:CP_Radial_D6.3mm_P2.50mm" H 5338 2400 50  0001 C CNN
 F 3 "~" H 5300 2550 50  0001 C CNN
 	1    5300 2550
 	1    0    0    -1  
@@ -317,5 +317,29 @@ F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 3850 2075 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3850 2250 50  0001 C CNN
 	1    3850 2250
 	-1   0    0    1   
+$EndComp
+$Comp
+L ao_symbols:Graphic GRAF1
+U 1 1 608D0242
+P 3300 3500
+F 0 "GRAF1" H 3578 3546 50  0000 L CNN
+F 1 "AO logo" H 3578 3455 50  0000 L CNN
+F 2 "ao_tht:analogoutput_12mm" H 3300 3500 50  0001 C CNN
+F 3 "" H 3300 3500 50  0001 C CNN
+F 4 "DNF" H 3300 3500 50  0001 C CNN "Config"
+	1    3300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:Graphic GRAF2
+U 1 1 608D4A4C
+P 3300 3800
+F 0 "GRAF2" H 3578 3846 50  0000 L CNN
+F 1 "CC0 logo" H 3578 3755 50  0000 L CNN
+F 2 "ao_tht:CC0_logo" H 3300 3800 50  0001 C CNN
+F 3 "" H 3300 3800 50  0001 C CNN
+F 4 "DNF" H 3300 3800 50  0001 C CNN "Config"
+	1    3300 3800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
