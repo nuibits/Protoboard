@@ -1,6 +1,11 @@
 # Protoboard
 Eurorack/Kosmo powered prototyping boards
 
+![](Images/protoboard.png)
+![](Images/proto-j.png)
+
+## Libraries
+
 Repo uses submodule aoKicad. To clone:
 
 ```
