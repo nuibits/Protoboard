@@ -40,7 +40,7 @@ F 3 "" H 1950 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5EFA7A00
 P 4175 5750
 AR Path="/5EFA5EE5/5EFA7A00" Ref="C?"  Part="1" 
@@ -49,11 +49,12 @@ F 0 "C1" H 4293 5796 50  0000 L CNN
 F 1 "10uF" H 4293 5705 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D6.3mm_P2.50mm" H 4213 5600 50  0001 C CNN
 F 3 "~" H 4175 5750 50  0001 C CNN
+F 4 "Tayda" H 4175 5750 50  0001 C CNN "Vendor"
 	1    4175 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5EFA7A06
 P 4175 6050
 AR Path="/5EFA5EE5/5EFA7A06" Ref="C?"  Part="1" 
@@ -62,6 +63,7 @@ F 0 "C2" H 4293 6096 50  0000 L CNN
 F 1 "10uF" H 4293 6005 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D6.3mm_P2.50mm" H 4213 5900 50  0001 C CNN
 F 3 "~" H 4175 6050 50  0001 C CNN
+F 4 "Tayda" H 4175 6050 50  0001 C CNN "Vendor"
 	1    4175 6050
 	1    0    0    -1  
 $EndComp
@@ -201,24 +203,28 @@ $EndComp
 Connection ~ 2025 6150
 Connection ~ 2025 5750
 $Comp
-L Diode:1N5817 D2
+L ao_symbols:1N5817 D2
 U 1 1 5F6283D3
 P 2725 6150
 F 0 "D2" H 2725 6367 50  0000 C CNN
 F 1 "1N5817" H 2725 6276 50  0000 C CNN
-F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 2725 5975 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 2725 5975 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2725 6150 50  0001 C CNN
+F 4 "A-159" H 2725 6150 50  0001 C CNN "SKU"
+F 5 "Tayda" H 2725 6150 50  0001 C CNN "Vendor"
 	1    2725 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5817 D1
+L ao_symbols:1N5817 D1
 U 1 1 5F628D76
 P 2725 5750
 F 0 "D1" H 2725 5533 50  0000 C CNN
 F 1 "1N5817" H 2725 5624 50  0000 C CNN
-F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 2725 5575 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 2725 5575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2725 5750 50  0001 C CNN
+F 4 "A-159" H 2725 5750 50  0001 C CNN "SKU"
+F 5 "Tayda" H 2725 5750 50  0001 C CNN "Vendor"
 	1    2725 5750
 	-1   0    0    1   
 $EndComp
